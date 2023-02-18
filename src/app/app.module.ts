@@ -8,13 +8,19 @@ import { CabeceraComponent } from './componentes/header/cabecera/cabecera.compon
 import { MenuComponent } from './componentes/body/menu/menu.component';
 import { CategoriasComponent } from './componentes/body/categorias/categorias.component'
 import { FormsModule } from '@angular/forms';
+import { FormularioCategoriaComponent } from './componentes/body/formulario-categoria/formulario-categoria.component';
+import { EditarCategoriaComponent } from './componentes/body/editar-categoria/editar-categoria.component';
+import { EliminarCategoriaComponent } from './componentes/body/eliminar-categoria/eliminar-categoria.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CabeceraComponent,
     MenuComponent,
-    CategoriasComponent
+    CategoriasComponent,
+    FormularioCategoriaComponent,
+    EditarCategoriaComponent,
+    EliminarCategoriaComponent
   ],
   imports: [
     BrowserModule,

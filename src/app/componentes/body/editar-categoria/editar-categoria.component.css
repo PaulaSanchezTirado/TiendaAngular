@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ label {
+    font-size: .85rem;
+    text-transform: uppercase;
+    color: #ccc;
+  }
+.form-control {
+    background-color: transparent;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    width: 99%;
+}
+h2{
+    font-family:'Helvetica' !important;
+    font-size: 25px !important;
+    color: darkkhaki !important;
+    margin-top: 70%;
+}
+button{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: darkkhaki !important;
+    color: white !important;
+    border-color: white!important;
+    border-radius: 10px !important;
+    border-width: 1px;
+    font-family:'Helvetica' !important;
+    font-size: 13px !important;
+    padding: 5px 10px;
+}
+button:hover{
+    background-color:  #ab9680 !important;
+}
