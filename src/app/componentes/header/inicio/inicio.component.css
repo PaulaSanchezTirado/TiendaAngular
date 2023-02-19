@@ -1,0 +1,11 @@
+.center-div{
+    min-width: 100px;
+    padding: 30px 25px;
+}
+
+.image{
+    background-color: darkkhaki;
+    text-align: center;
+    padding: 150px;
+    margin: 60px 45px 10px;
+}

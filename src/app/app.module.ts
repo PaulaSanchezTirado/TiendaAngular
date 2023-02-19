@@ -11,6 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { FormularioCategoriaComponent } from './componentes/body/formulario-categoria/formulario-categoria.component';
 import { EditarCategoriaComponent } from './componentes/body/editar-categoria/editar-categoria.component';
 import { EliminarCategoriaComponent } from './componentes/body/eliminar-categoria/eliminar-categoria.component';
+import { InicioComponent } from './componentes/header/inicio/inicio.component';
+import { PiedepaginaComponent } from './componentes/footer/piedepagina/piedepagina.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { EliminarCategoriaComponent } from './componentes/body/eliminar-categori
     CategoriasComponent,
     FormularioCategoriaComponent,
     EditarCategoriaComponent,
-    EliminarCategoriaComponent
+    EliminarCategoriaComponent,
+    InicioComponent,
+    PiedepaginaComponent
   ],
   imports: [
     BrowserModule,

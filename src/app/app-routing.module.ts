@@ -4,12 +4,14 @@ import { CategoriasComponent } from './componentes/body/categorias/categorias.co
 import { EditarCategoriaComponent } from './componentes/body/editar-categoria/editar-categoria.component';
 import { EliminarCategoriaComponent } from './componentes/body/eliminar-categoria/eliminar-categoria.component';
 import { FormularioCategoriaComponent } from './componentes/body/formulario-categoria/formulario-categoria.component';
+import { InicioComponent } from './componentes/header/inicio/inicio.component';
 
 const routes: Routes = [
   {path: 'categorias', component:CategoriasComponent},
   {path: 'categorias/añadirCategoria', component:FormularioCategoriaComponent},
   {path: 'categorias/editarCategoria/:id', component:EditarCategoriaComponent},
-  {path: 'categorias/eliminarCategoria/:id', component:EliminarCategoriaComponent}
+  {path: 'categorias/eliminarCategoria/:id', component:EliminarCategoriaComponent},
+  {path: 'inicio', component:InicioComponent}
 ];
 
 @NgModule({

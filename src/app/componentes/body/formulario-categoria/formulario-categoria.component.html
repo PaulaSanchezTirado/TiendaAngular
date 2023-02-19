@@ -4,7 +4,10 @@
         <form>
             <h2>Añadir categoría</h2>
             <label for="nombre">Nombre de la categoría</label>
-            <input class = "form-control" [(ngModel)]="categoria.cat_nombre" type="text" id="nombre" name="nombre" required>    
+            <input class = "form-control" [(ngModel)]="categoria.cat_nombre" type="text" id="nombre" name="nombre" required minlength="5" maxlength="50" #cat_nombre="ngModel">    
+            <div class="alert alert-warning" *ngIf="cat_nombre.invalid && (cat_nombre.dirty || cat_nombre.touched)">
+              El nombre de la categoría debe estar entre 5 y 50 caracteres
+            </div>
             <label for="descripcion">Descripción de la categoría</label>
             <input class = "form-control" [(ngModel)]="categoria.cat_descripcion" type="text" id="descripcion" name="descripcion" required>  
             <button class="btn btn-success confirm-button buttons" (click)="insertar()">Añadir</button>
