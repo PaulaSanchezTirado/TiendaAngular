@@ -8,11 +8,9 @@ import { CabeceraComponent } from './componentes/header/cabecera/cabecera.compon
 import { MenuComponent } from './componentes/body/menu/menu.component';
 import { CategoriasComponent } from './componentes/body/categorias/categorias.component'
 import { FormsModule } from '@angular/forms';
-import { FormularioCategoriaComponent } from './componentes/body/formulario-categoria/formulario-categoria.component';
-import { EditarCategoriaComponent } from './componentes/body/editar-categoria/editar-categoria.component';
-import { EliminarCategoriaComponent } from './componentes/body/eliminar-categoria/eliminar-categoria.component';
 import { InicioComponent } from './componentes/header/inicio/inicio.component';
 import { PiedepaginaComponent } from './componentes/footer/piedepagina/piedepagina.component';
+import { FormCategoriaComponent } from './componentes/body/form-categoria/form-categoria.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +18,9 @@ import { PiedepaginaComponent } from './componentes/footer/piedepagina/piedepagi
     CabeceraComponent,
     MenuComponent,
     CategoriasComponent,
-    FormularioCategoriaComponent,
-    EditarCategoriaComponent,
-    EliminarCategoriaComponent,
     InicioComponent,
-    PiedepaginaComponent
+    PiedepaginaComponent,
+    FormCategoriaComponent
   ],
   imports: [
     BrowserModule,

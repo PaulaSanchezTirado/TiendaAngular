@@ -3,7 +3,7 @@
         <h2>Gestión de Categorías</h2>          
     </div>
     <div class="col-xs-6">
-        <a routerLink="/categorias/añadirCategoria" class="btn btn-success"><span class="material-symbols-outlined">add</span></a>
+        <a routerLink="/categorias/0/Añadir" class="btn btn-success"><span class="material-symbols-outlined">add</span></a>
     </div>
     <table class="table">
         <thead>
@@ -20,10 +20,10 @@
                 <td [width]="200">{{c.cat_nombre}}</td>
                 <td [width]="600">{{c.cat_descripcion}}</td>
                 <td>
-                    <a routerLink="/categorias/eliminarCategoria/+{{c.id_categoria}}" class="delete button"><span class="material-symbols-outlined">
+                    <a routerLink="/categorias/{{c.id_categoria}}/Eliminar" class="delete button"><span class="material-symbols-outlined">
                         delete
                         </span></a>
-                    <a routerLink="/categorias/editarCategoria/+{{c.id_categoria}}" class="edit button"><span class="material-symbols-outlined">
+                    <a routerLink="/categorias/{{c.id_categoria}}/Modificar" class="edit button"><span class="material-symbols-outlined">
                         edit
                         </span></a>
                 </td>
