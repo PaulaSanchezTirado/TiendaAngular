@@ -11,7 +11,6 @@ import { ConexionService } from 'src/app/service/conexion.service';
 })
 export class FormularioCategoriaComponent {
   categoria:Categoria={id_categoria:0, cat_nombre:"", cat_descripcion:""}
-  insertado:boolean = false;
   constructor(private conexion:ConexionService, private route:ActivatedRoute, private router:Router){}
   ngOnInit(){}
 
@@ -20,7 +19,6 @@ export class FormularioCategoriaComponent {
     obs.subscribe((resp:any)=>{
         let stat:number = resp.status;
         if (stat==200){
-          this.insertado = true;
           console.log("Insertado")
         }
       })

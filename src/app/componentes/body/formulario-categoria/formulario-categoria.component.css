@@ -4,36 +4,32 @@
     align-items: center;
   }
  label {
-    font-size: .85rem;
+    font-size: larger;
     text-transform: uppercase;
-    color: #ccc;
+    color: darkkhaki;
+    padding-bottom: 15px;
+    padding-top: 20px;
   }
 .form-control {
-    background-color: transparent;
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
-    border-radius: 0;
     width: 99%;
 }
 h2{
-    font-family:'Helvetica' !important;
-    font-size: 25px !important;
-    color: darkkhaki !important;
-    margin-top: 70%;
+    font-family:'Helvetica';
+    font-size: 30px;
+    color: darkkhaki;
+    margin-top: 40%;
 }
 button{
     display: inline-block;
     margin-top: 20px;
-    background-color: darkkhaki !important;
-    color: white !important;
-    border-color: white!important;
-    border-radius: 10px !important;
+    background-color: darkkhaki;
+    color: white;
+    border-color: white;
     border-width: 1px;
-    font-family:'Helvetica' !important;
-    font-size: 13px !important;
+    font-family:'Helvetica';
+    font-size: 13px;
     padding: 5px 10px;
 }
 button:hover{
-    background-color:  #ab9680 !important;
+    background-color:  #3e492a;
 }
